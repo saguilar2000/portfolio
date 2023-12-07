@@ -1,13 +1,13 @@
-# Astronomer
+# M.Sc Astronomy
 
 #### Technical Skills: Python, fortran
 
 ### Education
-B.Sc, Astronomy | Universidad de Concepción (__2021__)
-M.Sc, Astronomy | Universidad de Concepción (__Current__)
+- B.Sc, Astronomy | Universidad de Concepción (__2021__)
+- M.Sc, Astronomy | Universidad de Concepción (__Current__)
 
 ### Research
-Master Thesis | Chemical complexity in simulations of circumstellar disk formation
+Chemical complexity in simulations of circumstellar disk formation | Master Thesis
 
 ### Talks & Events
 - XVII Latin American Regional IAU Meeting | Dec. 2023
