@@ -6,6 +6,9 @@
 - B.Sc, Astronomy, Universidad de Concepción | **Dec. 2021**
 - M.Sc, Astronomy, Universidad de Concepción | **Present**
 
+### Publications
+- **Coming soon**
+
 ### Research
 - Chemical complexity in simulations of circumstellar disk formation | Master Thesis
 
