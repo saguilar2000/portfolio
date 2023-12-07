@@ -3,11 +3,11 @@
 #### Technical Skills: Python, fortran
 
 ### Education
-- B.Sc, Astronomy | Universidad de Concepción (__2021__)
-- M.Sc, Astronomy | Universidad de Concepción (__Current__)
+- B.Sc, Astronomy | Universidad de Concepción (_2021_)
+- M.Sc, Astronomy | Universidad de Concepción (__Present__)
 
 ### Research
-Chemical complexity in simulations of circumstellar disk formation | Master Thesis
+- Chemical complexity in simulations of circumstellar disk formation | Master Thesis
 
 ### Talks & Events
 - XVII Latin American Regional IAU Meeting | Dec. 2023
@@ -20,5 +20,5 @@ Chemical complexity in simulations of circumstellar disk formation | Master Thes
   - Thesis Presentation, Universidad de Concepción, Concepción, Chile
 
 ### Memberships
-- **Member**, CATA, Centro de Astrofísica y Tecnologías Afines
-- **Member**, SOCHIAS, Sociedad Chilena de Astronomía
+- **Member**, CATA, Centro de Astrofísica y Tecnologías Afines (Mar. 2023 - Present)
+- **Member**, SOCHIAS, Sociedad Chilena de Astronomía (Oct. 2023 - Present)
