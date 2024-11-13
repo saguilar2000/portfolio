@@ -1,8 +1,5 @@
 # M.Sc Astronomy
 
-#### Technical Skills: Python, Fortran, SQL, Office
-#### Specific Software: Krome
-
 ### Education
 - B.Sc, Astronomy, Universidad de Concepción | **Dec. 2021**
 - M.Sc, Astronomy, Universidad de Concepción | **Present**
