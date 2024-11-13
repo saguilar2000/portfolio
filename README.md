@@ -5,18 +5,18 @@
 - M.Sc, Astronomy, Universidad de Concepción | **Present**
 
 ### Publications
-- Chemical complexity in simulations of circumstellar disk formation | Proceeding
+- Chemical complexity in simulations of circumstellar disk formation | **Proceeding**
   - Revista Mexicana de Astronomía y Astrofísica Serie Conferencias
 
 ### Research
-- Chemical complexity in simulations of circumstellar disk formation | Master Thesis
+- Chemical complexity in simulations of circumstellar disk formation | **Master Thesis**
 
 ### Experience
-- Internship, Sapienza University of Rome, Rome, Italy | Mar. 2024 - Apr. 2024
+- Internship, Sapienza University of Rome, Rome, Italy | **Mar. 2024 - Apr. 2024**
   - Work in post-processing techniques and chemical network developing
-- Graduate Assistant, Universidad de Concepción | Sep. 2023 - Nov. 2023
+- Graduate Assistant, Universidad de Concepción | **Sep. 2023 - Nov. 2023**
   - Interstellar Medium, Master's Course
-- Instructor, Universidad Nacional Autónoma de Honduras | May. 31st 2021 - Jun. 4th 2021
+- Instructor, Universidad Nacional Autónoma de Honduras | **May. 31st 2021 - Jun. 4th 2021**
   - Curso Introducción a \latex, undegraduate's course
 
 ### Talks & Events
@@ -30,7 +30,7 @@
   - Thesis Presentation, Universidad de Concepción, Concepción, Chile
 
 ### Outreach
-- Scicat Project | 2020 - 2024
+- Scicat Project | **2020 - 2024**
   - Outreach inititative centered around different disciplines includding astronomy, physics and mathematics.
 
 ### Memberships
