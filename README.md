@@ -1,8 +1,9 @@
-# M.Sc Astronomy
+# PhD Student
 
 ### Education
-- B.Sc, Astronomy, Universidad de Concepción | **Dec. 2021**
-- M.Sc, Astronomy, Universidad de Concepción | **Present**
+- B.S, Astronomy, Universidad de Concepción | **Dec. 2021**
+- M.S, Astronomy, Universidad de Concepción | **Jan. 2025**
+- PhDc, Physical Sciences, Universidad de Concepción | **Present**
 
 ### Publications
 - Chemical complexity in simulations of circumstellar disk formation | **Proceeding**
