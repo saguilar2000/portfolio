@@ -33,6 +33,7 @@
 ### Outreach
 - Scicat Project | **2020 - 2024**
   - Outreach inititative centered around different disciplines includding astronomy, physics and mathematics.
+- Journal Clubs | **Present**
 
 ### Memberships
 - **Member**, CATA, Centro de Astrofísica y Tecnologías Afines | **Mar. 2023 - Present**
@@ -42,6 +43,6 @@
 - **Operating Systems**: Linux, Unix, Windows
 - **Programming Languajes**: Python, FORTRAN, SQL
 - **Developer Tools**: TOPCAT, IRAF, SAOImageDS9, CASA
-- **Specific Software**: Krome, SPLASH, Pynbody, H5Py, Astropy
+- **Specific Software**: FARGO3D, Krome, SPLASH, Pynbody, H5Py, Astropy
 - **Languajes**: Spanish - Native, English - Advanced, Italian - Basic
-- **Areas of Interest**: Astrochemistry, Cosmology, Theoretical Astrophysics, Circumstellar/Protoplanetary Disks
+- **Areas of Interest**: Theoretical Astrophysics, Accretion Disks, Protoplanetary Disks, Astrochemistry.
