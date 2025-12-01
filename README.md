@@ -45,4 +45,4 @@
 - **Developer Tools**: TOPCAT, IRAF, SAOImageDS9, CASA
 - **Specific Software**: FARGO3D, Krome, SPLASH, Pynbody, H5Py, Astropy
 - **Languajes**: Spanish - Native, English - Advanced, Italian - Basic
-- **Areas of Interest**: Theoretical Astrophysics, Accretion Disks, Protoplanetary Disks, Astrochemistry.
+- **Areas of Interest**: Theoretical Astrophysics, Accretion Disks, Protoplanetary Disks, Astrochemistry
