@@ -6,7 +6,7 @@
   <!-- ============================================================
        TÍTULO DE LA PESTAÑA — reemplaza con tu nombre
        ============================================================ -->
-  <title>Dr. Tu Nombre · Físico &amp; Astrónomo</title>
+  <title>SAguilar · Portfolio</title>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -291,27 +291,48 @@
 
       <!-- Visual orb / avatar block -->
       <div class="hidden md:flex items-center justify-center">
-        <div class="relative w-64 h-64">
-          <!-- Orbit ring -->
-          <div class="absolute inset-0 rounded-full border border-border/50"
-               style="box-shadow: 0 0 40px rgba(56,189,248,.08);"></div>
-          <!-- Avatar circle — reemplaza src con tu foto -->
-          <div class="absolute inset-6 rounded-full overflow-hidden border border-pulse/30"
-               style="box-shadow: 0 0 30px rgba(56,189,248,.3);">
-            <!-- Si tienes foto: <img src="assets/foto.jpg" class="w-full h-full object-cover" alt="Tu Nombre"> -->
-            <!-- Placeholder con iniciales: -->
+        <div class="relative w-64 h-64" style="perspective: 1000px;">
+          
+          <!-- CONTENEDOR DEL DISCO DE ACRECIÓN -->
+          <div class="absolute inset-[-40px] flex items-center justify-center" 
+              style="transform: rotateX(75deg) rotateY(-10deg); transform-style: preserve-3d;">
+            
+            <!-- Capa de Brillo/Nebulosa del disco -->
+            <div class="absolute inset-0 rounded-full" 
+                style="background: conic-gradient(from 0deg, transparent, rgba(56,189,248,0.2), transparent 50%, rgba(56,189,248,0.2), transparent);
+                        filter: blur(15px);
+                        animation: orbit 4s linear infinite;">
+            </div>
+
+            <!-- Rejilla de puntos (Accretion Points) -->
+            <div class="absolute inset-0 rounded-full" 
+                style="background-image: radial-gradient(circle, #38bdf8 1px, transparent 1px);
+                        background-size: 20px 20px;
+                        mask-image: radial-gradient(circle, black 30%, transparent 70%);
+                        -webkit-mask-image: radial-gradient(circle, black 30%, transparent 70%);
+                        animation: orbit 8s linear infinite reverse;">
+            </div>
+          </div>
+
+          <!-- Orbit ring (Anillo estático de referencia) -->
+          <div class="absolute inset-0 rounded-full border border-border/30"
+              style="box-shadow: 0 0 40px rgba(56,189,248,.05);"></div>
+          
+          <!-- Avatar circle (El "Cuerpo Celeste") -->
+          <div class="absolute inset-6 rounded-full overflow-hidden border border-pulse/30 z-10"
+              style="box-shadow: 0 0 30px rgba(56,189,248,.3); background: #0f172a;">
             <div class="w-full h-full bg-panel flex items-center justify-center">
-              <!-- EDITAR: tus iniciales -->
               <span class="font-display text-5xl text-pulse text-glow">SA</span>
             </div>
           </div>
-          <!-- Orbiting dot -->
-          <div class="absolute inset-0 flex items-center justify-center" style="animation: orbit 12s linear infinite;">
+
+          <!-- Partícula orbitante (Opcional, para dar profundidad extra) -->
+          <div class="absolute inset-0 flex items-center justify-center z-20" style="animation: orbit 12s linear infinite;">
             <div class="w-2 h-2 rounded-full bg-pulse shadow-glow" style="margin-left: 120px;"></div>
           </div>
-          <!-- Labels -->
-          <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 font-mono text-xs text-dim text-center whitespace-nowrap">
-            <!-- EDITAR: tu universidad -->
+
+          <!-- Etiqueta -->
+          <div class="absolute -bottom-16 left-1/2 -translate-x-1/2 font-mono text-xs text-dim text-center whitespace-nowrap">
             Universidad de Concepción · Chile
           </div>
         </div>
