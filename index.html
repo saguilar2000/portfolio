@@ -271,6 +271,22 @@
           ASTRONOMER - PHYSICIST
         </p>
 
+        <!-- ── MOBILE-ONLY AVATAR ──
+             Se muestra solo en pantallas pequeñas (<md).
+             En desktop el avatar aparece dentro del orbe animado (bloque de la derecha).
+             EDITAR: reemplaza src con la ruta/URL de tu foto. -->
+        <div class="flex md:hidden justify-center opacity-0-init animate-fade-up">
+          <div class="relative w-40 h-40 rounded-full overflow-hidden border border-pulse/30 shadow-glow bg-panel
+                      flex items-center justify-center">
+            <!-- Fallback: iniciales si la imagen falla -->
+            <span class="font-display text-4xl text-pulse text-glow absolute select-none pointer-events-none">SA</span>
+            <img src="assets/img/IMG_PORTFOLIO_2.jpeg"
+                 alt="Sebastián Aguilar"
+                 class="avatar-photo relative z-10"
+                 onerror="this.style.display='none'" />
+          </div>
+        </div>
+
         <!-- Main headline — reemplaza con tu nombre completo -->
         <h1 class="font-display text-5xl md:text-6xl lg:text-7xl leading-none text-bright text-glow opacity-0-init animate-fade-up stagger-2">
           PhD(s)<br/><span class="text-pulse">Sebastián</span><br/>Aguilar
@@ -308,7 +324,7 @@
         </div>
       </div>
 
-      <!-- Visual orb / avatar block -->
+      <!-- Visual orb / avatar block — DESKTOP ONLY (hidden below md) -->
       <div class="hidden md:flex items-center justify-center">
         <div class="relative w-64 h-64" style="perspective: 1000px;">
 
