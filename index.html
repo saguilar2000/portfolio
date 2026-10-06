@@ -142,7 +142,17 @@
     .project-card:hover .abstract-overlay { max-height: 200px; opacity: 1; }
 
     /* ── Terminal ── */
-    .terminal-cursor::after { content: '▋'; animation: blink 1s step-end infinite; color: #38bdf8; }
+    /* Keyframe declared here so it's always emitted (Tailwind CDN tree-shakes unused ones). */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0; }
+    }
+    .terminal-cursor::after {
+      content: '▋';
+      color: #38bdf8;
+      margin-left: 2px;
+      animation: blink 1s step-end infinite;
+    }
 
     /* ── Section heading line ── */
     .section-label::before {
@@ -334,17 +344,24 @@
               <!-- Fallback: iniciales si la imagen falla -->
               <span class="font-display text-5xl text-pulse text-glow absolute select-none pointer-events-none">SA</span>
               <!-- EDITAR: reemplaza src con la ruta/URL de tu foto -->
-              <img src="assets/img/IMG_PORTFOLIO_2.jpeg"
+              <img src="tu-foto.jpg"
                    alt="Sebastián Aguilar"
                    class="avatar-photo relative z-10"
                    onerror="this.style.display='none'" />
             </div>
           </div>
 
-          <!-- Partícula orbitante (Opcional, para dar profundidad extra) -->
-          <!-- <div class="absolute inset-0 flex items-center justify-center z-20" style="animation: orbit 12s linear infinite;"> -->
-            <!-- <div class="w-2 h-2 rounded-full bg-pulse shadow-glow" style="margin-left: 120px;"></div> -->
-          <!-- </div> -->
+          <!--
+            Partícula orbitante (desactivada)
+            ─────────────────────────────────────
+            Originalmente dibujaba un pequeño punto azul orbitando alrededor del avatar.
+            Se comenta porque se solapaba visualmente con la foto del avatar.
+            Para reactivarla, descomenta el bloque de abajo.
+
+            <div class="absolute inset-0 flex items-center justify-center z-20" style="animation: orbit 12s linear infinite;">
+              <div class="w-2 h-2 rounded-full bg-pulse shadow-glow" style="margin-left: 120px;"></div>
+            </div>
+          -->
 
           <!-- Etiqueta -->
           <div class="absolute -bottom-16 left-1/2 -translate-x-1/2 font-mono text-xs text-dim text-center whitespace-nowrap">
